@@ -44,7 +44,7 @@ function addList() {
 }
 
 $(window).scroll(function() {
-	if ($(window).scrollTop() == $(document).height() - $(window).height()) {
+	if ($(window).scrollTop() > $(document).height() - $(window).height() - 50) {
 		addList();
 	}
 });
@@ -55,10 +55,6 @@ $(function() {
 
 	$.getJSON('https://chibbistest.ru/api/restaurants', function (data) {
 		dataJson = data;
-		// console.log(dataJson[0]);
-		// console.log(dataJson[10]);
-		// console.log(dataJson[20]);
-		// console.log(dataJson[30]);
 		$( ".list" ).html('').removeClass('list_loading');
 		addList();
 	});
