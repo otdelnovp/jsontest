@@ -5,7 +5,7 @@ var dataJson = [],
 function addList() {
 	var addItems = '';
 	for(var i=0; i < howMatchItems; i++) {
-		if(currentItem > dataJson.length) return false;
+		if(currentItem >= dataJson.length) return false;
 		obj = dataJson[currentItem];
 		//console.log(obj.Name);
 		addItems +=
@@ -55,6 +55,7 @@ $(function() {
 
 	$.getJSON('https://chibbistest.ru/api/restaurants', function (data) {
 		dataJson = data;
+		//console.log(dataJson);
 		$( ".list" ).html('').removeClass('list_loading');
 		addList();
 	});
