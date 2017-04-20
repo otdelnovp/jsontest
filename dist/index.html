@@ -30,25 +30,40 @@
 <section class="main">
 
 	<div class="loading"></div>
-	<ul class="list list_loading">
-		<li class="list__item list__item_empty">
+	<ul class="list list_loading" id="app">
+		<transition-group name="opacity" tag="div">
+		<li class="list__item" v-for="item in items" v-if="item.show" v-bind:key="item.Id" v-bind:class="item.Id">
 			<a href="#" class="list__item__link clearfix">
-				<span class="list__item__image"><img src="https://dummyimage.com/150x150/ccc/fff" alt=""></span>
-				<span class="list__item__content">
-					<h3 class="list__item__title">Заголовок</h3>
-					<span class="list__item__type">суши, пицца, выпечка</span>
-					<span class="list__item__timer">откроется в 9:00</span>
+				<span class="list__item__image"><img v-bind:src="item.Logo" alt=""></span>
+				<span class="list__item__content clearfix">
+					<h3 class="list__item__title">{{ item.Name }} {{ item.Id }}</h3>
+					<span class="list__item__type">{{ item.Cuisines.split(' / ').join(', ') }}</span>
+					<span class="list__item__time"><span class="list__item__time__value">{{ item.WorkingTime }}</span></span>
 				</span>
 				<span class="list__item__info">
-					<span class="list__item__price">от 400 Р</span>
-					<span class="list__item__price">250 Р</span>
-					<span class="list__item__time">60 мин.</span>
+					<span class="list__item__info__item list__item__info__item_price">
+						<i class="fa fa-shopping-bag"></i>От <span class="list__item__info__value">{{ item.MinCost }} ₽</span>
+						<span class="list__item__info__note">мин сумма заказа</span>
+					</span>
+					<span class="list__item__info__item list__item__info__item_delivery">
+						<i class="fa fa-car"></i>
+						<span class="list__item__info__value">{{ item.DeliveryCost }} ₽</span>
+						<span class="list__item__info__note">стоимость доставки</span>
+					</span>
+					<span class="list__item__info__item list__item__info__item_delivery-time">
+						<i class="fa fa-clock-o"></i>
+						<span class="list__item__info__value">{{ item.DeliveryTime }}</span>
+						<span class="list__item__info__note">среднее время доставки</span>
+					</span>
 				</span>
-				<span class="list__item__label">Новый</span>
+				<span class="list__item__label" v-if="item.IsNew || item.HasSails || item.HasPaymentForPoints" v-bind:class="item.IsNew ? 'new' : ( item.HasSails ? 'sails' : ( item.HasPaymentForPoints ? 'points' : '' ) )">
+					<span>{{ item.IsNew ? 'новый' : ( item.HasSails ? 'акция' : ( item.HasPaymentForPoints ? 'баллы' : '' ) ) }}<span>
+				</span>
 			</a>
 		</li>
+		</transition-group>
+
 	</ul>
-	<!--button class="addButton">add</button-->
 
 </section>
 
