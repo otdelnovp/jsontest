@@ -16,8 +16,7 @@
 	left: 0
 	padding: 2rem
 	width: 100%
-	height: 20rem
-	border-bottom: 5rem solid #fff
+	height: 13rem
 	font-size: 2rem
 	color: #fff
 	background: $color
@@ -31,7 +30,7 @@
 	left: 0
 	padding: 2rem
 	width: 100%
-	height: 10rem
+	height: 7rem
 	font-size: 2rem
 	color: #fff
 	background: $color
@@ -42,7 +41,7 @@
 	box-sizing: border-box
 	position: relative
 	margin: 0 auto
-	padding: 20rem 0 10rem
+	padding: 13rem 0 7rem
 	max-width: 90rem
 	min-height: 100%
 	background: #fff
@@ -68,6 +67,8 @@
 		width: 100%
 		height: 10rem
 		background: url(../img/loader.gif) center no-repeat
+	&_loading &__item
+		opacity: 0
 
 	&__item
 		display: block
@@ -76,8 +77,6 @@
 		padding: 
 		background: #fff
 		overflow: hidden
-		&_empty
-			opacity: 0
 		&_preload
 			opacity: 0
 		&:hover
@@ -242,6 +241,11 @@
 					background: radial-gradient(ellipse at center,  #f7a039 0%,#e05405 100%)
 					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a039', endColorstr='#e05405',GradientType=1 )
 
+.opacity-transition
+	opacity: 1
+	transition: opacity 1s cubic-bezier(.65, .05, .36, 1)
 
+.opacity-enter, .opacity-leave
+	opacity: 0
 
 @import "media"
