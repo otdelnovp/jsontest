@@ -6,7 +6,8 @@ var dataJson = [],
 function addList() {
 	for(var i=0; i < howMatchItems; i++) {
 		if(currentItem >= dataJson.length) return false;
-		mylist.$set('items[' + currentItem + '].show', true);
+		//mylist.$set('items[' + currentItem + '].show', true);
+		Vue.set(mylist.items[currentItem],'show', true);
 		currentItem++;
 	}
 }
@@ -33,7 +34,7 @@ $(function() {
 				items: dataJson
 			}
 		});
-		//console.log('mylist', mylist.$data.items);
+		//console.log('mylist', mylist.items);
 
 		addList();
 

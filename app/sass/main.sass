@@ -219,21 +219,21 @@
 				vertical-align: middle
 				position: relative
 				z-index: 2
-			&_new
+			&.new
 				background: #52842b
 				&:after
 					background: -moz-radial-gradient(center, ellipse cover,  #5da028 0%, #416d1d 100%)
 					background: -webkit-radial-gradient(center, ellipse cover,  #5da028 0%,#416d1d 100%)
 					background: radial-gradient(ellipse at center,  #5da028 0%,#416d1d 100%)
 					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5da028', endColorstr='#416d1d',GradientType=1 )
-			&_sails
+			&.sails
 				background: #c62222
 				&:after
 					background: -moz-radial-gradient(center, ellipse cover,  #f73232 0%, #b51212 100%)
 					background: -webkit-radial-gradient(center, ellipse cover,  #f73232 0%,#b51212 100%)
 					background: radial-gradient(ellipse at center,  #f73232 0%,#b51212 100%)
 					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f73232', endColorstr='#b51212',GradientType=1 )
-			&_points
+			&.points
 				background: #fa620b
 				&:after
 					background: -moz-radial-gradient(center, ellipse cover,  #f7a039 0%, #e05405 100%)
@@ -241,11 +241,11 @@
 					background: radial-gradient(ellipse at center,  #f7a039 0%,#e05405 100%)
 					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a039', endColorstr='#e05405',GradientType=1 )
 
-.opacity-transition
+.opacity-enter-active, .opacity-leave-active
 	opacity: 1
 	transition: opacity 1s cubic-bezier(.65, .05, .36, 1)
 
-.opacity-enter, .opacity-leave
+.opacity-enter, .opacity-leave-to
 	opacity: 0
 
 @import "media"
