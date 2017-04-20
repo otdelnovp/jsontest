@@ -1,13 +1,13 @@
 var dataJson = [],
+    dataItems,
     currentItem = 0,
-    howMatchItems = 10,
-    mylist;
+    howMatchItems = 10;
 
 function addList() {
 	for(var i=0; i < howMatchItems; i++) {
 		if(currentItem >= dataJson.length) return false;
 		//mylist.$set('items[' + currentItem + '].show', true);
-		Vue.set(mylist.items[currentItem],'show', true);
+		Vue.set(dataItems.items[currentItem],'show', true);
 		currentItem++;
 	}
 }
@@ -28,13 +28,13 @@ $(function() {
 		//console.log(dataJson);
 		$( ".list" ).removeClass('list_loading');
 
-		mylist = new Vue({
+		dataItems = new Vue({
 			el: "#app",
 			data: {
 				items: dataJson
 			}
 		});
-		//console.log('mylist', mylist.items);
+		//console.log('dataItems', dataItems.items);
 
 		addList();
 

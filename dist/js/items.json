@@ -2,7 +2,7 @@
 	{
 		"Id":0,
 		"Name":"Заголовок записи",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image1",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Суши и роллы / Бургеры",
 		"MinCost":490,
 		"DeliveryCost":100,
@@ -17,7 +17,7 @@
 	{
 		"Id":1,
 		"Name":"Другой заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image2",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Пончики / Шашлыки",
 		"MinCost":300,
 		"DeliveryCost":50,
@@ -32,7 +32,7 @@
 	{
 		"Id":2,
 		"Name":"Еще заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image3",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Супы / Суши и роллы / Каши",
 		"MinCost":550,
 		"DeliveryCost":130,
@@ -47,7 +47,7 @@
 	{
 		"Id":3,
 		"Name":"Заголовок записи",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image1",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Суши и роллы / Бургеры",
 		"MinCost":490,
 		"DeliveryCost":100,
@@ -62,7 +62,7 @@
 	{
 		"Id":4,
 		"Name":"Другой заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image2",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Пончики / Шашлыки",
 		"MinCost":300,
 		"DeliveryCost":50,
@@ -77,7 +77,7 @@
 	{
 		"Id":5,
 		"Name":"Еще заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image3",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Супы / Суши и роллы / Каши",
 		"MinCost":550,
 		"DeliveryCost":130,
@@ -92,7 +92,7 @@
 	{
 		"Id":6,
 		"Name":"Заголовок записи",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image1",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Суши и роллы / Бургеры",
 		"MinCost":490,
 		"DeliveryCost":100,
@@ -107,7 +107,7 @@
 	{
 		"Id":7,
 		"Name":"Другой заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image2",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Пончики / Шашлыки",
 		"MinCost":300,
 		"DeliveryCost":50,
@@ -122,7 +122,7 @@
 	{
 		"Id":8,
 		"Name":"Еще заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image3",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Супы / Суши и роллы / Каши",
 		"MinCost":550,
 		"DeliveryCost":130,
@@ -137,7 +137,7 @@
 	{
 		"Id":9,
 		"Name":"Заголовок записи",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image1",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Суши и роллы / Бургеры",
 		"MinCost":490,
 		"DeliveryCost":100,
@@ -152,7 +152,7 @@
 	{
 		"Id":10,
 		"Name":"Другой заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image2",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Пончики / Шашлыки",
 		"MinCost":300,
 		"DeliveryCost":50,
@@ -167,7 +167,7 @@
 	{
 		"Id":11,
 		"Name":"Еще заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image3",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Супы / Суши и роллы / Каши",
 		"MinCost":550,
 		"DeliveryCost":130,
@@ -182,7 +182,7 @@
 	{
 		"Id":12,
 		"Name":"Заголовок записи",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image1",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Суши и роллы / Бургеры",
 		"MinCost":490,
 		"DeliveryCost":100,
@@ -197,7 +197,7 @@
 	{
 		"Id":13,
 		"Name":"Другой заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image2",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Пончики / Шашлыки",
 		"MinCost":300,
 		"DeliveryCost":50,
@@ -212,7 +212,7 @@
 	{
 		"Id":14,
 		"Name":"Еще заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image3",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Супы / Суши и роллы / Каши",
 		"MinCost":550,
 		"DeliveryCost":130,
@@ -227,7 +227,7 @@
 	{
 		"Id":15,
 		"Name":"Заголовок записи",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image1",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Суши и роллы / Бургеры",
 		"MinCost":490,
 		"DeliveryCost":100,
@@ -242,7 +242,7 @@
 	{
 		"Id":16,
 		"Name":"Другой заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image2",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Пончики / Шашлыки",
 		"MinCost":300,
 		"DeliveryCost":50,
@@ -257,7 +257,7 @@
 	{
 		"Id":17,
 		"Name":"Еще заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image3",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Супы / Суши и роллы / Каши",
 		"MinCost":550,
 		"DeliveryCost":130,
@@ -272,7 +272,7 @@
 	{
 		"Id":18,
 		"Name":"Заголовок записи",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image1",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Суши и роллы / Бургеры",
 		"MinCost":490,
 		"DeliveryCost":100,
@@ -287,7 +287,7 @@
 	{
 		"Id":19,
 		"Name":"Другой заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image2",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Пицца / Пончики / Шашлыки",
 		"MinCost":300,
 		"DeliveryCost":50,
@@ -302,7 +302,7 @@
 	{
 		"Id":20,
 		"Name":"Еще заголовок",
-		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image3",
+		"Logo":"https://dummyimage.com/300x300/ccc/666&text=image",
 		"Cuisines":"Супы / Суши и роллы / Каши",
 		"MinCost":550,
 		"DeliveryCost":130,
